@@ -56,7 +56,7 @@ const request = async (request, { owner, repo }) => {
 
         for (let i = 0; i < responses.length; i++) {
             console.log('Status', responses[i].status);
-            fs.writeFile(path.join(__dirname, `/data/${folderName}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
+            fs.writeFile(path.join(__dirname, `/raw-data/${folderName}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
                 if (error) {
                     console.log(error);
                 } else {
@@ -67,17 +67,4 @@ const request = async (request, { owner, repo }) => {
         
     }
 
-    // if (error) {
-    //     console.log(error);
-    // } else { 
-    //     const __fileName = fileURLToPath(import.meta.url);
-    //     const __dirname = path.dirname(__fileName);
-    //     fs.writeFile(path.join(__dirname, `/data/${fileName}.json`), JSON.stringify(data), (error) => {
-    //         if (error) {
-    //             console.log(error);
-    //         } else {
-    //             console.log(`${fileName}.json was created successfully!`);
-    //         }
-    //     });
-    // }
 })();

@@ -45,7 +45,7 @@ const getContributors = async ({ owner, repo }) => {
     } else { 
         const __fileName = fileURLToPath(import.meta.url);
         const __dirname = path.dirname(__fileName);
-        fs.writeFile(path.join(__dirname, `/data/${fileName}.json`), JSON.stringify(data), (error) => {
+        fs.writeFile(path.join(__dirname, `/raw-data/${fileName}.json`), JSON.stringify(data), (error) => {
             if (error) {
                 console.log(error);
             } else {
