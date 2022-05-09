@@ -11,23 +11,23 @@ const getArguments = () => {
     const optionDefinitions = [
         { name: 'owner', alias: 'o', type: String },
         { name: 'repo', alias: 'r', type: String },
-        { name: 'fileName', alias: 'f', type: String }
+        { name: 'folderName', alias: 'f', type: String }
     ];
 
     return commandLineArgs(optionDefinitions); 
 }
 
-const getContributors = async ({ owner, repo }) => {
+const request = async (request, { owner, repo }) => {
     const octokit = new Octokit({
         auth: process.env.GITHUBTOKEN
     });
     
     try {
-        return await octokit.request('GET /repos/{owner}/{repo}/contributors', {
+        return await octokit.request(`GET /repos/{owner}/{repo}/stats/${request}`, {
             owner, repo
         });
     } catch (error) {
-        return { error };
+        throw error;
     }
 };
 
@@ -36,30 +36,31 @@ const getContributors = async ({ owner, repo }) => {
 
 (async () => {
 
-    const { owner, repo, fileName } = getArguments();
+    const { owner, repo, folderName } = getArguments();
 
-    const { data, error } = await getContributors({ owner, repo });
+    const requests = [
+        'contributors',
+    ];
 
-    if (error) {
-        console.log(error);
+    const responses = await Promise.all(requests.map(async req => await request(req, { owner, repo })));
+
+    if (!Array.isArray(responses)) {
+        console.log(responses);
     } else { 
         const __fileName = fileURLToPath(import.meta.url);
         const __dirname = path.dirname(__fileName);
-        fs.writeFile(path.join(__dirname, `/raw-data/${fileName}.json`), JSON.stringify(data), (error) => {
-            if (error) {
-                console.log(error);
-            } else {
-                console.log(`${fileName}.json was created successfully!`);
-            }
-        });
+
+        for (let i = 0; i < responses.length; i++) {
+            console.log('Status', responses[i].status);
+            fs.writeFile(path.join(__dirname, `/raw-data/${folderName}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
+                if (error) {
+                    console.log(error);
+                } else {
+                    console.log(`${requests[i]}.json was created successfully!`);
+                }
+            });
+        }
+        
     }
+
 })();
-
-
-
-
-
-
-
-
-
