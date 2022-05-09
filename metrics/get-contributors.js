@@ -11,7 +11,6 @@ const getArguments = () => {
     const optionDefinitions = [
         { name: 'owner', alias: 'o', type: String },
         { name: 'repo', alias: 'r', type: String },
-        { name: 'folderName', alias: 'f', type: String }
     ];
 
     return commandLineArgs(optionDefinitions); 
@@ -31,19 +30,16 @@ const request = async (request, { owner, repo }) => {
     }
 };
 
-
-    
-
 (async () => {
 
-    const { owner, repo, folderName } = getArguments();
+    const { owner, repo } = getArguments();
 
     const requests = [
         'contributors',
     ];
 
     const responses = await Promise.all(requests.map(async req => await request(req, { owner, repo })));
-
+    
     if (!Array.isArray(responses)) {
         console.log(responses);
     } else { 
@@ -52,13 +48,22 @@ const request = async (request, { owner, repo }) => {
 
         for (let i = 0; i < responses.length; i++) {
             console.log('Status', responses[i].status);
-            fs.writeFile(path.join(__dirname, `/raw-data/${folderName}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
-                if (error) {
-                    console.log(error);
+
+            fs.mkdir(path.join(__dirname, `/raw-data/${owner}-${repo}`), (err) => {
+                if (err) {
+                    console.log(err);
                 } else {
-                    console.log(`${requests[i]}.json was created successfully!`);
+                    fs.writeFile(path.join(__dirname, `/raw-data/${owner}-${repo}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
+                        if (error) {
+                            console.log(error);
+                        } else {
+                            console.log(`${requests[i]}.json was created successfully!`);
+                        }
+                    });
                 }
             });
+
+            
         }
         
     }

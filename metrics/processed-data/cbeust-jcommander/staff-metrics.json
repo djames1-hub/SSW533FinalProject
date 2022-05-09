@@ -1,0 +1,689 @@
+[
+  {
+    "commitHash": "2bf65f35304b2402c652052d25fc2f608cb844bf",
+    "intervalDate": "2011-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      { "login": "chirino", "totalCommits": 1, "time": 0.9400634115409005 },
+      { "login": "huxi", "totalCommits": 1, "time": 0.8441851616994293 },
+      { "login": "sclasen", "totalCommits": 5, "time": 0.36479391249207355 },
+      { "login": "ansel1", "totalCommits": 2, "time": 0.5565504121750159 },
+      { "login": "pcl", "totalCommits": 1, "time": 0.5373747622067216 },
+      { "login": "xfournet", "totalCommits": 4, "time": 0.6907799619530754 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 0.9400634115409005 },
+      { "login": "cbeust", "totalCommits": 235, "time": 0.9975903614457832 }
+    ],
+    "numberOfContributors": 8
+  },
+  {
+    "commitHash": "75d579a2fc672582cfadefc360fe18b05caa7e21",
+    "intervalDate": "2012-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      { "login": "chirino", "totalCommits": 1, "time": 1.9426759670259988 },
+      { "login": "huxi", "totalCommits": 1, "time": 1.8467977171845276 },
+      { "login": "sclasen", "totalCommits": 5, "time": 1.3674064679771718 },
+      { "login": "ansel1", "totalCommits": 2, "time": 1.5591629676601142 },
+      { "login": "pcl", "totalCommits": 1, "time": 1.53998731769182 },
+      { "login": "evigeant", "totalCommits": 1, "time": 0.3702726696258719 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 0.33192136968928343 },
+      { "login": "xfournet", "totalCommits": 4, "time": 1.6933925174381737 },
+      { "login": "acornejo", "totalCommits": 1, "time": 0.8688395688015219 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 0.005935320228281547
+      },
+      { "login": "amuraru", "totalCommits": 3, "time": 0.7346100190234622 },
+      { "login": "henryju", "totalCommits": 1, "time": 0.6195561192136969 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 1.9426759670259988 },
+      { "login": "cbeust", "totalCommits": 338, "time": 2.0002029169308813 }
+    ],
+    "numberOfContributors": 14
+  },
+  {
+    "commitHash": "33dcbc6fdca9e9318a37b9f3b8e4f821c69b0f7b",
+    "intervalDate": "2013-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      { "login": "chirino", "totalCommits": 1, "time": 2.942549143944198 },
+      { "login": "huxi", "totalCommits": 1, "time": 2.8466708941027266 },
+      { "login": "sclasen", "totalCommits": 5, "time": 2.367279644895371 },
+      { "login": "ansel1", "totalCommits": 2, "time": 2.559036144578313 },
+      { "login": "pcl", "totalCommits": 1, "time": 2.539860494610019 },
+      { "login": "evigeant", "totalCommits": 1, "time": 1.370145846544071 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 1.3317945466074825 },
+      { "login": "xfournet", "totalCommits": 4, "time": 2.6932656943563726 },
+      { "login": "acornejo", "totalCommits": 1, "time": 1.868712745719721 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 1.0058084971464807
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 0.8140519974635384 },
+      { "login": "madrob", "totalCommits": 3, "time": 0.10455294863665188 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 1,
+        "time": 0.7181737476220672
+      },
+      { "login": "tzellman", "totalCommits": 1, "time": 0.10455294863665188 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 0.7181737476220672 },
+      { "login": "amuraru", "totalCommits": 3, "time": 1.7344831959416613 },
+      { "login": "henryju", "totalCommits": 1, "time": 1.619429296131896 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 2.942549143944198 },
+      { "login": "cbeust", "totalCommits": 375, "time": 3.0000760938490805 }
+    ],
+    "numberOfContributors": 19
+  },
+  {
+    "commitHash": "44ef916dcf74e46adbf7c2ae99643bd0e97c16e6",
+    "intervalDate": "2014-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      { "login": "chirino", "totalCommits": 1, "time": 3.9424223208623967 },
+      { "login": "huxi", "totalCommits": 1, "time": 3.8465440710209258 },
+      { "login": "sclasen", "totalCommits": 5, "time": 3.36715282181357 },
+      { "login": "ansel1", "totalCommits": 2, "time": 3.5589093214965124 },
+      { "login": "samvv", "totalCommits": 4, "time": 0.16481927710843375 },
+      { "login": "brasseld", "totalCommits": 1, "time": 0.49080532656943565 },
+      { "login": "pcl", "totalCommits": 1, "time": 3.539733671528218 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 0.9318452758402029 },
+      { "login": "evigeant", "totalCommits": 1, "time": 2.37001902346227 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 2.3316677235256815 },
+      { "login": "jconwell", "totalCommits": 1, "time": 0.10729232720355104 },
+      { "login": "gbalats", "totalCommits": 1, "time": 0.4716296766011414 },
+      { "login": "xfournet", "totalCommits": 4, "time": 3.693138871274572 },
+      { "login": "acornejo", "totalCommits": 1, "time": 2.8685859226379202 },
+      { "login": "andylaw", "totalCommits": 2, "time": 0.3949270767279645 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 2.0056816740646797
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 1.8139251743817375 },
+      { "login": "madrob", "totalCommits": 3, "time": 1.104426125554851 },
+      { "login": "ymenager", "totalCommits": 1, "time": 0.37575142675967027 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 7,
+        "time": 1.7180469245402663
+      },
+      { "login": "tzellman", "totalCommits": 1, "time": 1.104426125554851 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 1.7180469245402663 },
+      { "login": "amuraru", "totalCommits": 3, "time": 2.7343563728598603 },
+      { "login": "henryju", "totalCommits": 1, "time": 2.6193024730500953 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 3.9424223208623967 },
+      { "login": "cbeust", "totalCommits": 381, "time": 3.9999492707672797 }
+    ],
+    "numberOfContributors": 26
+  },
+  {
+    "commitHash": "2b8f5363d66ceb9d71858ceabf71732ed4971916",
+    "intervalDate": "2015-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 0.6469499048826887
+      },
+      { "login": "chilinglam", "totalCommits": 1, "time": 0.838706404565631 },
+      { "login": "chirino", "totalCommits": 1, "time": 4.942295497780596 },
+      { "login": "huxi", "totalCommits": 1, "time": 4.846417247939125 },
+      { "login": "sclasen", "totalCommits": 5, "time": 4.367025998731769 },
+      { "login": "ansel1", "totalCommits": 2, "time": 4.558782498414711 },
+      { "login": "samvv", "totalCommits": 4, "time": 1.1646924540266328 },
+      { "login": "brasseld", "totalCommits": 1, "time": 1.4906785034876346 },
+      { "login": "pcl", "totalCommits": 1, "time": 4.539606848446417 },
+      { "login": "helllth", "totalCommits": 2, "time": 0.9729359543436905 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 1.931718452758402 },
+      { "login": "evigeant", "totalCommits": 1, "time": 3.369892200380469 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 3.3315409004438807 },
+      { "login": "jconwell", "totalCommits": 1, "time": 1.10716550412175 },
+      { "login": "gbalats", "totalCommits": 1, "time": 1.4715028535193406 },
+      { "login": "xfournet", "totalCommits": 4, "time": 4.693012048192771 },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 0.26343690551680404 },
+      { "login": "acornejo", "totalCommits": 1, "time": 3.868459099556119 },
+      { "login": "andylaw", "totalCommits": 2, "time": 1.3948002536461637 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 3.005554850982879
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 2.8137983512999365 },
+      { "login": "madrob", "totalCommits": 3, "time": 2.1042993024730503 },
+      { "login": "ymenager", "totalCommits": 1, "time": 1.3756246036778694 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 0.340139505389981 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 8,
+        "time": 2.7179201014584655
+      },
+      { "login": "tzellman", "totalCommits": 1, "time": 2.1042993024730503 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 2.7179201014584655 },
+      { "login": "amuraru", "totalCommits": 3, "time": 3.7342295497780595 },
+      { "login": "cheister", "totalCommits": 1, "time": 0.47436905516804057 },
+      { "login": "henryju", "totalCommits": 1, "time": 3.619175649968294 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 4.942295497780596 },
+      { "login": "cbeust", "totalCommits": 420, "time": 4.999822447685479 },
+      { "login": "wardev", "totalCommits": 1, "time": 0.014153455928979075 }
+    ],
+    "numberOfContributors": 33
+  },
+  {
+    "commitHash": "a5b57c2a86cc9326d9cec781fb64d8e5160fb299",
+    "intervalDate": "2016-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 1.649562460367787
+      },
+      { "login": "tfiskgul", "totalCommits": 2, "time": 0.36479391249207355 },
+      { "login": "chilinglam", "totalCommits": 1, "time": 1.8413189600507291 },
+      {
+        "login": "chrisruffalo",
+        "totalCommits": 2,
+        "time": 0.6140773620798985
+      },
+      { "login": "chirino", "totalCommits": 1, "time": 5.944908053265694 },
+      { "login": "huxi", "totalCommits": 1, "time": 5.849029803424223 },
+      {
+        "login": "kirill-vlasov",
+        "totalCommits": 1,
+        "time": 0.5565504121750159
+      },
+      { "login": "sclasen", "totalCommits": 5, "time": 5.369638554216867 },
+      { "login": "ansel1", "totalCommits": 2, "time": 5.56139505389981 },
+      { "login": "samvv", "totalCommits": 4, "time": 2.167305009511731 },
+      { "login": "brasseld", "totalCommits": 1, "time": 2.493291058972733 },
+      { "login": "pcl", "totalCommits": 1, "time": 5.542219403931515 },
+      { "login": "helllth", "totalCommits": 2, "time": 1.9755485098287888 },
+      { "login": "edbrannin", "totalCommits": 1, "time": 0.9975903614457832 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 2.9343310082435003 },
+      { "login": "evigeant", "totalCommits": 1, "time": 4.372504755865568 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 4.334153455928979 },
+      { "login": "jconwell", "totalCommits": 1, "time": 2.1097780596068483 },
+      { "login": "gbalats", "totalCommits": 1, "time": 2.4741154090044386 },
+      { "login": "xfournet", "totalCommits": 4, "time": 5.695624603677869 },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 1.2660494610019024 },
+      { "login": "acornejo", "totalCommits": 1, "time": 4.871071655041217 },
+      { "login": "andylaw", "totalCommits": 2, "time": 2.397412809131262 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 4.008167406467977
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 3.816410906785035 },
+      { "login": "madrob", "totalCommits": 3, "time": 3.1069118579581483 },
+      { "login": "ymenager", "totalCommits": 1, "time": 2.3782371591629676 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 1.3427520608750794 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 8,
+        "time": 3.720532656943564
+      },
+      { "login": "adpdiddy", "totalCommits": 1, "time": 0.2497400126823082 },
+      {
+        "login": "simon-clarkstone",
+        "totalCommits": 2,
+        "time": 0.9208877615726062
+      },
+      { "login": "tzellman", "totalCommits": 2, "time": 3.1069118579581483 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 3.720532656943564 },
+      { "login": "amuraru", "totalCommits": 3, "time": 4.7368421052631575 },
+      { "login": "cheister", "totalCommits": 1, "time": 1.4769816106531388 },
+      { "login": "henryju", "totalCommits": 1, "time": 4.6217882054533925 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 5.944908053265694 },
+      { "login": "cbeust", "totalCommits": 473, "time": 6.002435003170577 },
+      { "login": "wardev", "totalCommits": 3, "time": 1.0167660114140773 }
+    ],
+    "numberOfContributors": 39
+  },
+  {
+    "commitHash": "35cdc8de86404d2a5451c8b24590b32398f12f9e",
+    "intervalDate": "2017-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 2.649435637285986
+      },
+      { "login": "tfiskgul", "totalCommits": 2, "time": 1.3646670894102726 },
+      {
+        "login": "slonopotamus",
+        "totalCommits": 1,
+        "time": 0.7702219403931515
+      },
+      { "login": "chilinglam", "totalCommits": 1, "time": 2.841192136968928 },
+      { "login": "glhez", "totalCommits": 4, "time": 0.07989854153455929 },
+      {
+        "login": "chrisruffalo",
+        "totalCommits": 2,
+        "time": 1.6139505389980977
+      },
+      { "login": "chirino", "totalCommits": 1, "time": 6.944781230183893 },
+      { "login": "huxi", "totalCommits": 1, "time": 6.848902980342422 },
+      {
+        "login": "kirill-vlasov",
+        "totalCommits": 1,
+        "time": 1.556423589093215
+      },
+      { "login": "sclasen", "totalCommits": 5, "time": 6.369511731135066 },
+      {
+        "login": "jakobwenzel",
+        "totalCommits": 1,
+        "time": 0.36753329105897276
+      },
+      { "login": "Woodham", "totalCommits": 1, "time": 0.07989854153455929 },
+      { "login": "ansel1", "totalCommits": 2, "time": 6.561268230818009 },
+      { "login": "triceo", "totalCommits": 2, "time": 0.3483576410906785 },
+      { "login": "samvv", "totalCommits": 4, "time": 3.1671781864299304 },
+      { "login": "brasseld", "totalCommits": 1, "time": 3.4931642358909323 },
+      { "login": "pcl", "totalCommits": 1, "time": 6.542092580849714 },
+      {
+        "login": "tom-haines",
+        "totalCommits": 1,
+        "time": 0.022371591629676602
+      },
+      { "login": "helllth", "totalCommits": 2, "time": 2.975421686746988 },
+      {
+        "login": "71a1562385057d498290",
+        "totalCommits": 1,
+        "time": 0.27165504121750156
+      },
+      { "login": "edbrannin", "totalCommits": 1, "time": 1.9974635383639823 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 3.9342041851616996 },
+      { "login": "yevmel", "totalCommits": 2, "time": 0.04154724159797083 },
+      { "login": "evigeant", "totalCommits": 1, "time": 5.372377932783767 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 5.334026632847178 },
+      { "login": "jconwell", "totalCommits": 1, "time": 3.1096512365250475 },
+      { "login": "gbalats", "totalCommits": 1, "time": 3.473988585922638 },
+      { "login": "xfournet", "totalCommits": 4, "time": 6.695497780596068 },
+      { "login": "garydgregory", "totalCommits": 4, "time": 0.80857324032974 },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 2.2659226379201014 },
+      { "login": "acornejo", "totalCommits": 1, "time": 5.870944831959417 },
+      {
+        "login": "jodastephen",
+        "totalCommits": 1,
+        "time": 0.0031959416613823715
+      },
+      { "login": "mattjbray", "totalCommits": 1, "time": 0.6935193405199747 },
+      { "login": "andylaw", "totalCommits": 2, "time": 3.397285986049461 },
+      { "login": "JesusFreke", "totalCommits": 1, "time": 0.80857324032974 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 5.008040583386176
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 4.816284083703234 },
+      { "login": "madrob", "totalCommits": 3, "time": 4.1067850348763475 },
+      { "login": "ymenager", "totalCommits": 1, "time": 3.378110336081167 },
+      { "login": "mmzen", "totalCommits": 1, "time": 0.9428027901077997 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 2.3426252377932784 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 8,
+        "time": 4.720405833861763
+      },
+      { "login": "adpdiddy", "totalCommits": 1, "time": 1.2496131896005074 },
+      { "login": "lindenb", "totalCommits": 3, "time": 0.31000634115409004 },
+      {
+        "login": "Dougrinch",
+        "totalCommits": 1,
+        "time": 0.0031959416613823715
+      },
+      {
+        "login": "simon-clarkstone",
+        "totalCommits": 2,
+        "time": 1.9207609384908053
+      },
+      { "login": "selliera", "totalCommits": 7, "time": 0.9428027901077997 },
+      { "login": "tzellman", "totalCommits": 2, "time": 4.1067850348763475 },
+      { "login": "simon04", "totalCommits": 16, "time": 0.8661001902346227 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 4.720405833861763 },
+      {
+        "login": "jeremysolarz",
+        "totalCommits": 34,
+        "time": 0.5784654407102092
+      },
+      { "login": "amuraru", "totalCommits": 3, "time": 5.736715282181357 },
+      {
+        "login": "shekhargulati",
+        "totalCommits": 1,
+        "time": 0.022371591629676602
+      },
+      { "login": "cheister", "totalCommits": 1, "time": 2.476854787571338 },
+      { "login": "henryju", "totalCommits": 1, "time": 5.621661382371592 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 6.944781230183893 },
+      { "login": "cbeust", "totalCommits": 540, "time": 7.002308180088776 },
+      { "login": "kovalskyi", "totalCommits": 4, "time": 0.7702219403931515 },
+      { "login": "wardev", "totalCommits": 3, "time": 2.0166391883322765 }
+    ],
+    "numberOfContributors": 59
+  },
+  {
+    "commitHash": "9f251415677106b683e4bbaf82123f0e5930cdce",
+    "intervalDate": "2018-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 3.649308814204185
+      },
+      { "login": "tfiskgul", "totalCommits": 2, "time": 2.3645402663284716 },
+      {
+        "login": "slonopotamus",
+        "totalCommits": 1,
+        "time": 1.7700951173113506
+      },
+      { "login": "chilinglam", "totalCommits": 1, "time": 3.8410653138871274 },
+      { "login": "glhez", "totalCommits": 4, "time": 1.0797717184527584 },
+      { "login": "chrisruffalo", "totalCommits": 2, "time": 2.613823715916297 },
+      { "login": "chirino", "totalCommits": 1, "time": 7.944654407102092 },
+      { "login": "huxi", "totalCommits": 1, "time": 7.848776157260621 },
+      {
+        "login": "kirill-vlasov",
+        "totalCommits": 1,
+        "time": 2.556296766011414
+      },
+      { "login": "sclasen", "totalCommits": 5, "time": 7.369384908053266 },
+      { "login": "jakobwenzel", "totalCommits": 1, "time": 1.3674064679771718 },
+      { "login": "Woodham", "totalCommits": 1, "time": 1.0797717184527584 },
+      { "login": "ansel1", "totalCommits": 2, "time": 7.561141407736208 },
+      { "login": "triceo", "totalCommits": 2, "time": 1.3482308180088776 },
+      { "login": "samvv", "totalCommits": 4, "time": 4.167051363348129 },
+      { "login": "brasseld", "totalCommits": 1, "time": 4.493037412809131 },
+      { "login": "pcl", "totalCommits": 1, "time": 7.541965757767914 },
+      { "login": "dozmus", "totalCommits": 19, "time": 0.7537856689917565 },
+      { "login": "tom-haines", "totalCommits": 1, "time": 1.0222447685478757 },
+      { "login": "helllth", "totalCommits": 2, "time": 3.9752948636651873 },
+      {
+        "login": "71a1562385057d498290",
+        "totalCommits": 1,
+        "time": 1.2715282181357006
+      },
+      { "login": "edbrannin", "totalCommits": 1, "time": 2.9973367152821813 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 4.934077362079899 },
+      { "login": "yevmel", "totalCommits": 2, "time": 1.04142041851617 },
+      { "login": "evigeant", "totalCommits": 1, "time": 6.372251109701966 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 6.333899809765377 },
+      { "login": "jconwell", "totalCommits": 1, "time": 4.109524413443246 },
+      { "login": "gbalats", "totalCommits": 1, "time": 4.473861762840837 },
+      { "login": "xfournet", "totalCommits": 4, "time": 7.6953709575142675 },
+      { "login": "garydgregory", "totalCommits": 4, "time": 1.808446417247939 },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 3.2657958148383006 },
+      { "login": "acornejo", "totalCommits": 1, "time": 6.870818008877616 },
+      { "login": "jodastephen", "totalCommits": 2, "time": 1.0030691185795815 },
+      { "login": "mattjbray", "totalCommits": 1, "time": 1.6933925174381737 },
+      { "login": "andylaw", "totalCommits": 2, "time": 4.39715916296766 },
+      { "login": "JesusFreke", "totalCommits": 1, "time": 1.808446417247939 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 6.007913760304375
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 5.816157260621433 },
+      { "login": "madrob", "totalCommits": 3, "time": 5.106658211794547 },
+      { "login": "ymenager", "totalCommits": 1, "time": 4.377983512999366 },
+      {
+        "login": "tiberiu-biking",
+        "totalCommits": 1,
+        "time": 0.8304882688649334
+      },
+      { "login": "mmzen", "totalCommits": 1, "time": 1.9426759670259988 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 3.3424984147114776 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 8,
+        "time": 5.720279010779962
+      },
+      { "login": "adpdiddy", "totalCommits": 1, "time": 2.2494863665187066 },
+      { "login": "lindenb", "totalCommits": 3, "time": 1.309879518072289 },
+      { "login": "Dougrinch", "totalCommits": 1, "time": 1.0030691185795815 },
+      {
+        "login": "simon-clarkstone",
+        "totalCommits": 2,
+        "time": 2.9206341154090043
+      },
+      { "login": "selliera", "totalCommits": 14, "time": 1.9426759670259988 },
+      { "login": "juewe", "totalCommits": 1, "time": 0.8880152187698162 },
+      { "login": "tzellman", "totalCommits": 2, "time": 5.106658211794547 },
+      { "login": "simon04", "totalCommits": 16, "time": 1.8659733671528218 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 5.720279010779962 },
+      {
+        "login": "jeremysolarz",
+        "totalCommits": 34,
+        "time": 1.5783386176284084
+      },
+      { "login": "amuraru", "totalCommits": 3, "time": 6.736588459099556 },
+      {
+        "login": "shekhargulati",
+        "totalCommits": 1,
+        "time": 1.0222447685478757
+      },
+      { "login": "cheister", "totalCommits": 1, "time": 3.476727964489537 },
+      { "login": "henryju", "totalCommits": 1, "time": 6.621534559289791 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 7.944654407102092 },
+      { "login": "cbeust", "totalCommits": 549, "time": 8.002181357006975 },
+      { "login": "kovalskyi", "totalCommits": 4, "time": 1.7700951173113506 },
+      { "login": "wardev", "totalCommits": 3, "time": 3.0165123652504757 }
+    ],
+    "numberOfContributors": 62
+  },
+  {
+    "commitHash": "85cb6f7217e15f62225185ffd97491f34b7b49bb",
+    "intervalDate": "2019-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 4.649181991122385
+      },
+      { "login": "tfiskgul", "totalCommits": 2, "time": 3.364413443246671 },
+      {
+        "login": "slonopotamus",
+        "totalCommits": 1,
+        "time": 2.7699682942295496
+      },
+      { "login": "chilinglam", "totalCommits": 1, "time": 4.840938490805327 },
+      { "login": "glhez", "totalCommits": 4, "time": 2.0796448953709574 },
+      {
+        "login": "chrisruffalo",
+        "totalCommits": 2,
+        "time": 3.6136968928344957
+      },
+      { "login": "chirino", "totalCommits": 1, "time": 8.944527584020292 },
+      { "login": "huxi", "totalCommits": 1, "time": 8.84864933417882 },
+      {
+        "login": "kirill-vlasov",
+        "totalCommits": 1,
+        "time": 3.556169942929613
+      },
+      { "login": "sclasen", "totalCommits": 5, "time": 8.369258084971465 },
+      { "login": "jakobwenzel", "totalCommits": 1, "time": 2.367279644895371 },
+      { "login": "Woodham", "totalCommits": 1, "time": 2.0796448953709574 },
+      { "login": "ansel1", "totalCommits": 2, "time": 8.561014584654407 },
+      { "login": "triceo", "totalCommits": 2, "time": 2.3481039949270768 },
+      { "login": "samvv", "totalCommits": 4, "time": 5.166924540266328 },
+      { "login": "brasseld", "totalCommits": 1, "time": 5.49291058972733 },
+      { "login": "pcl", "totalCommits": 1, "time": 8.541838934686114 },
+      { "login": "dozmus", "totalCommits": 19, "time": 1.7536588459099556 },
+      { "login": "tom-haines", "totalCommits": 1, "time": 2.022117945466075 },
+      { "login": "helllth", "totalCommits": 2, "time": 4.9751680405833865 },
+      {
+        "login": "71a1562385057d498290",
+        "totalCommits": 1,
+        "time": 2.2714013950539
+      },
+      { "login": "edbrannin", "totalCommits": 1, "time": 3.9972098922003805 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 5.933950538998098 },
+      { "login": "yevmel", "totalCommits": 2, "time": 2.041293595434369 },
+      { "login": "evigeant", "totalCommits": 1, "time": 7.372124286620165 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 7.333772986683576 },
+      { "login": "jconwell", "totalCommits": 1, "time": 5.1093975903614455 },
+      { "login": "gbalats", "totalCommits": 1, "time": 5.473734939759036 },
+      { "login": "xfournet", "totalCommits": 4, "time": 8.695244134432468 },
+      { "login": "garydgregory", "totalCommits": 4, "time": 2.808319594166138 },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 4.2656689917565 },
+      { "login": "acornejo", "totalCommits": 1, "time": 7.870691185795815 },
+      { "login": "jodastephen", "totalCommits": 2, "time": 2.0029422954977805 },
+      { "login": "mattjbray", "totalCommits": 1, "time": 2.6932656943563726 },
+      { "login": "andylaw", "totalCommits": 2, "time": 5.397032339885859 },
+      { "login": "JesusFreke", "totalCommits": 1, "time": 2.808319594166138 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 7.0077869372225745
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 6.816030437539633 },
+      { "login": "madrob", "totalCommits": 3, "time": 6.106531388712746 },
+      { "login": "ymenager", "totalCommits": 1, "time": 5.377856689917565 },
+      {
+        "login": "tiberiu-biking",
+        "totalCommits": 1,
+        "time": 1.8303614457831325
+      },
+      { "login": "mmzen", "totalCommits": 1, "time": 2.942549143944198 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 4.342371591629677 },
+      {
+        "login": "cedricrefresh",
+        "totalCommits": 8,
+        "time": 6.720152187698161
+      },
+      { "login": "adpdiddy", "totalCommits": 1, "time": 3.2493595434369054 },
+      { "login": "lindenb", "totalCommits": 3, "time": 2.3097526949904883 },
+      { "login": "Dougrinch", "totalCommits": 1, "time": 2.0029422954977805 },
+      {
+        "login": "simon-clarkstone",
+        "totalCommits": 2,
+        "time": 3.9205072923272035
+      },
+      { "login": "selliera", "totalCommits": 14, "time": 2.942549143944198 },
+      { "login": "juewe", "totalCommits": 1, "time": 1.8878883956880153 },
+      { "login": "tzellman", "totalCommits": 2, "time": 6.106531388712746 },
+      { "login": "simon04", "totalCommits": 16, "time": 2.865846544071021 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 6.720152187698161 },
+      {
+        "login": "jeremysolarz",
+        "totalCommits": 34,
+        "time": 2.5782117945466076
+      },
+      { "login": "amuraru", "totalCommits": 3, "time": 7.736461636017755 },
+      {
+        "login": "shekhargulati",
+        "totalCommits": 1,
+        "time": 2.022117945466075
+      },
+      { "login": "cheister", "totalCommits": 1, "time": 4.476601141407736 },
+      { "login": "henryju", "totalCommits": 1, "time": 7.62140773620799 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 8.944527584020292 },
+      { "login": "cbeust", "totalCommits": 551, "time": 9.002054533925174 },
+      { "login": "kovalskyi", "totalCommits": 4, "time": 2.7699682942295496 },
+      { "login": "wardev", "totalCommits": 3, "time": 4.016385542168675 }
+    ],
+    "numberOfContributors": 62
+  },
+  {
+    "commitHash": "70da85ac4ce16b8a9afb1e11b9f7e8eddec672cf",
+    "intervalDate": "2020-07-10T04:00:00.000Z",
+    "staffMetrics": [
+      {
+        "login": "boillodmanuel",
+        "totalCommits": 1,
+        "time": 5.651794546607483
+      },
+      { "login": "tfiskgul", "totalCommits": 2, "time": 4.367025998731769 },
+      { "login": "slonopotamus", "totalCommits": 1, "time": 3.772580849714648 },
+      { "login": "chilinglam", "totalCommits": 1, "time": 5.8435510462904245 },
+      { "login": "glhez", "totalCommits": 4, "time": 3.082257450856056 },
+      { "login": "chrisruffalo", "totalCommits": 2, "time": 4.616309448319594 },
+      { "login": "chirino", "totalCommits": 1, "time": 9.94714013950539 },
+      { "login": "huxi", "totalCommits": 1, "time": 9.851261889663919 },
+      {
+        "login": "kirill-vlasov",
+        "totalCommits": 1,
+        "time": 4.558782498414711
+      },
+      { "login": "sclasen", "totalCommits": 5, "time": 9.371870640456564 },
+      { "login": "jakobwenzel", "totalCommits": 1, "time": 3.369892200380469 },
+      { "login": "Woodham", "totalCommits": 1, "time": 3.082257450856056 },
+      { "login": "ansel1", "totalCommits": 2, "time": 9.563627140139506 },
+      { "login": "triceo", "totalCommits": 2, "time": 3.350716550412175 },
+      { "login": "samvv", "totalCommits": 4, "time": 6.169537095751426 },
+      { "login": "brasseld", "totalCommits": 1, "time": 6.495523145212428 },
+      { "login": "pcl", "totalCommits": 1, "time": 9.54445149017121 },
+      { "login": "dozmus", "totalCommits": 19, "time": 2.756271401395054 },
+      { "login": "tom-haines", "totalCommits": 1, "time": 3.024730500951173 },
+      { "login": "helllth", "totalCommits": 2, "time": 5.977780596068484 },
+      {
+        "login": "71a1562385057d498290",
+        "totalCommits": 1,
+        "time": 3.2740139505389982
+      },
+      { "login": "edbrannin", "totalCommits": 1, "time": 4.999822447685479 },
+      { "login": "jmassenet", "totalCommits": 1, "time": 6.936563094483196 },
+      { "login": "yevmel", "totalCommits": 2, "time": 3.0439061509194674 },
+      { "login": "evigeant", "totalCommits": 1, "time": 8.374736842105262 },
+      { "login": "pmendelson", "totalCommits": 1, "time": 8.336385542168674 },
+      { "login": "jconwell", "totalCommits": 1, "time": 6.112010145846544 },
+      { "login": "gbalats", "totalCommits": 1, "time": 6.476347495244134 },
+      { "login": "xfournet", "totalCommits": 4, "time": 9.697856689917565 },
+      {
+        "login": "garydgregory",
+        "totalCommits": 4,
+        "time": 3.8109321496512365
+      },
+      { "login": "mar-kolya", "totalCommits": 1, "time": 5.268281547241598 },
+      { "login": "acornejo", "totalCommits": 1, "time": 8.873303741280914 },
+      { "login": "jodastephen", "totalCommits": 2, "time": 3.005554850982879 },
+      { "login": "mattjbray", "totalCommits": 1, "time": 3.695878249841471 },
+      { "login": "andylaw", "totalCommits": 2, "time": 6.399644895370957 },
+      { "login": "JesusFreke", "totalCommits": 1, "time": 3.8109321496512365 },
+      {
+        "login": "joelittlejohn",
+        "totalCommits": 1,
+        "time": 8.010399492707673
+      },
+      { "login": "styurin", "totalCommits": 1, "time": 7.8186429930247305 },
+      { "login": "madrob", "totalCommits": 3, "time": 7.109143944197844 },
+      { "login": "ymenager", "totalCommits": 1, "time": 6.380469245402663 },
+      {
+        "login": "tiberiu-biking",
+        "totalCommits": 1,
+        "time": 2.832974001268231
+      },
+      { "login": "mmzen", "totalCommits": 1, "time": 3.945161699429296 },
+      { "login": "TKlerx", "totalCommits": 2, "time": 5.344984147114775 },
+      { "login": "cedricrefresh", "totalCommits": 8, "time": 7.72276474318326 },
+      { "login": "adpdiddy", "totalCommits": 1, "time": 4.251972098922004 },
+      { "login": "lindenb", "totalCommits": 3, "time": 3.3123652504755867 },
+      { "login": "Dougrinch", "totalCommits": 1, "time": 3.005554850982879 },
+      {
+        "login": "simon-clarkstone",
+        "totalCommits": 2,
+        "time": 4.923119847812302
+      },
+      { "login": "selliera", "totalCommits": 14, "time": 3.945161699429296 },
+      { "login": "juewe", "totalCommits": 1, "time": 2.8905009511731135 },
+      { "login": "tzellman", "totalCommits": 2, "time": 7.109143944197844 },
+      { "login": "simon04", "totalCommits": 16, "time": 3.868459099556119 },
+      { "login": "Vanuan", "totalCommits": 5, "time": 7.72276474318326 },
+      { "login": "mkarg", "totalCommits": 2, "time": 0.762003804692454 },
+      {
+        "login": "jeremysolarz",
+        "totalCommits": 34,
+        "time": 3.5808243500317056
+      },
+      { "login": "amuraru", "totalCommits": 3, "time": 8.739074191502853 },
+      {
+        "login": "shekhargulati",
+        "totalCommits": 1,
+        "time": 3.024730500951173
+      },
+      { "login": "cheister", "totalCommits": 1, "time": 5.479213696892835 },
+      { "login": "henryju", "totalCommits": 1, "time": 8.624020291693087 },
+      { "login": "sauthieg", "totalCommits": 1, "time": 9.94714013950539 },
+      { "login": "cbeust", "totalCommits": 573, "time": 10.004667089410272 },
+      { "login": "kovalskyi", "totalCommits": 4, "time": 3.772580849714648 },
+      { "login": "wardev", "totalCommits": 3, "time": 5.018998097653773 }
+    ],
+    "numberOfContributors": 63
+  }
+]
