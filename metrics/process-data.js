@@ -64,7 +64,7 @@ const findMostRecentCommit = (date, repo) => {
 
 const storeMetricsInCSVFile = (owner, repo, metrics) => {
     const staffData = metrics.map(({ commitHash, intervalDate, staffMetrics }) => {
-        const t = staffMetrics.map(({ login, totalCommits, time }) => `${login},${totalCommits},${time}\n`).join('');
+        const t = staffMetrics.map(({ login, totalCommits, time }) => `${login},${time},${totalCommits}\n`).join('');
         return `${commitHash},${intervalDate},\nLogins,Time Spent (Years),Total Commits\n` + t;
         
     }).join();
