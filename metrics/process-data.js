@@ -62,6 +62,23 @@ const findMostRecentCommit = (date, repo) => {
     
 }
 
+const storeMetricsInCSVFile = (owner, repo, metrics) => {
+    const staffData = metrics.map(({ commitHash, intervalDate, staffMetrics }) => {
+        const t = staffMetrics.map(({ login, totalCommits, time }) => `${login},${totalCommits},${time}\n`).join('');
+        return `${commitHash},${intervalDate},\nLogins,Time Spent (Years),Total Commits\n` + t;
+        
+    }).join();
+
+    const __fileName = fileURLToPath(import.meta.url);
+    const __dirname = path.dirname(__fileName);
+    const filePath = path.join(__dirname, `/sheets/${owner}-${repo}.csv`);
+    fs.writeFile(filePath, staffData, (err) => {
+        if (err) {
+            console.log(err);
+        }
+    });
+}
+
 
 (async () => {
     const { owner, repo } = getArguments();
@@ -108,17 +125,6 @@ const findMostRecentCommit = (date, repo) => {
 
             console.log(commits);
 
-            // {
-            //     login,
-            //     startDate,
-            //     weeks: weeks.map(({ w, c }) => {
-            //         return {
-            //             date: new Date(w * SECONDS_TO_MILLISECONDS),
-            //             commits: c
-            //         }
-            //     })
-            // }
-
             const metrics = commits.map(({ intervalDate, commitHash }) => {
                 let staffMetrics = commitHistories.map(({ login, startDate, weeks }) => {
                     const w = weeks.filter(({ date }) => date.getTime() <= intervalDate.getTime())
@@ -147,6 +153,8 @@ const findMostRecentCommit = (date, repo) => {
                             console.log(err);
                         } else {
                             console.log(`staff-metrics.json was created successfully!`);
+
+                            storeMetricsInCSVFile(owner, repo, metrics);
                         }
                     });
                 }
