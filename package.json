@@ -1,0 +1,24 @@
+{
+  "name": "ssw533finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djames1-hub/SSW533FinalProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djames1-hub/SSW533FinalProject/issues"
+  },
+  "homepage": "https://github.com/djames1-hub/SSW533FinalProject#readme",
+  "dependencies": {
+    "@octokit/core": "^3.6.0",
+    "command-line-args": "^5.2.1"
+  }
+}
