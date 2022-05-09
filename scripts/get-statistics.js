@@ -55,6 +55,7 @@ const request = async (request, { owner, repo }) => {
         const __dirname = path.dirname(__fileName);
 
         for (let i = 0; i < responses.length; i++) {
+            console.log('Status', responses[i].status);
             fs.writeFile(path.join(__dirname, `/data/${folderName}/${requests[i]}.json`), JSON.stringify(responses[i].data), (error) => {
                 if (error) {
                     console.log(error);
