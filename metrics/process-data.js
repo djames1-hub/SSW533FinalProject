@@ -109,7 +109,7 @@ const storeMetricsInCSVFile = (owner, repo, metrics) => {
 
             console.log('Next date:', getNextYear(firstCommit.startDate));
 
-            const MAX_INTERVAL_COMMITS = 6;
+            const MAX_INTERVAL_COMMITS = 12;
             let nextYear = null;
             let commits = [];
             let recentCommit = null;
